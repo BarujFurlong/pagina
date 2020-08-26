@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fallas comunes de cargadores de Laptop</title>
+	<style>
+ul.contenedor_menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li.item_menu {
+  float: left;
+}
+
+li a.link_menu {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a.link_menu:hover {
+  background-color: #111111;
+}
+table.horario {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+	<ul class="contenedor_menu">
+  <li class="item_menu"><a class="link_menu" href="http://localhost/" target="">Home</a></li>
+  <li class="item_menu"><a class="link_menu" href="https://docs.emmet.io/cheat-sheet/" target="_blank">Emmet</a></li>
+  <li class="item_menu"><a class="link_menu" href="#contact" target="_blank">Contact</a></li>
+  <li class="item_menu"><a class="link_menu" href="#about" target="_blank">About</a></li>
+</ul>
+	<h1>Fallas comunes de cargadores de Laptop</h1>
+	<ol>
+		<li>Cable cargador-laptop en sus dos extremos</li>
+		<li>Cable de la red electrica-cargador</li>
+		<li>Primeros inductores con discontinuidad</li>
+		<div align="center">
+			<img src="../images/Inductor1.png" alt="Inductor" style="width:40%;">
+		</div>
+		<li>Fusible: Si esta roto checar el puente de diodos</li>
+		<li>Puente de diodos</li>
+		<div align="center">
+			<img src="../images/Diodos1.png" alt="Diodos individuales" style="width:40%;">
+			<img src="../images/Diodos2.png" alt="Diodos encapsulados" style="width:40%;">
+		</div>
+		<li>Transformador de alta frecuencia</li>
+		<div align="center">
+			<img src="../images/Transformador.png" alt="Inductor" style="width:40%;">
+		</div>
+		<li>Capacitor de alto voltaje: Se necesita un LCR para medirlo</li>
+		<li>Fisuras en zonas de soldadura de: 
+			<ul>
+				<li>Transformador</li>
+				<li>Inductores</li>
+				<li>Capacitores grandes</li>
+				<li>Transistores</li>
+			</ul>
+		</li>
+		<div align="center">
+			<img src="../images/Soldadura1.png" alt="Soldadura fisurada" style="width:40%;">
+		</div>
+		<li>Capacitores inflados</li>
+	</ol>
+</body>
+</html>
